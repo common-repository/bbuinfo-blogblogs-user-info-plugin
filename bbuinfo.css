@@ -1,0 +1,28 @@
+<style type="text/css">
+
+.bb_user_info { margin: 10px 0px 10px 0px; background:#ecf8e1 url(:PLUGIN_PATH:imagens/bg_user_info.gif) repeat-x; height:69px; width:100%; font:0.9em "Trebuchet MS", Arial, Verdana; text-align:center; vertical-align:middle; }
+.bb_user_info a { color:#5eb113; text-decoration:none; }
+.bb_user_info a:hover { color:#4b9d00; }
+.bb_user_info .bbui_table{ width: 355px; border: 0px solid #000000; border-collapse:collapse; margin:7px; float:none;}
+.bb_user_info .bbui_table TD{ border: 0px solid #000000;}
+
+.bbui_loading { height:69px; width:100%; background-image:url(:PLUGIN_PATH:imagens/loading.gif); background-position:center; background-repeat:no-repeat;}
+
+.bb_user_info .bbui_nome { padding: 3px; font-size:16px; font-weight:bold; }
+.bb_user_info .bbui_img { text-align: center; width: 54px; padding: 3px; vertical-align:middle; }
+.bb_user_info .bbui_img IMG{ border: 0px;}
+
+.bb_user_info .bbui_blog { vertical-align:middle; text-align:center; padding: 3px; font-size:9px; font-weight:bold; width: 74px; background: url(:PLUGIN_PATH:imagens/bg_user_data.gif) no-repeat; height: 24px; }
+.bb_user_info .bbui_rank { vertical-align:middle; text-align:center; padding: 3px; font-size:9px; font-weight:bold; width: 74px; background: url(:PLUGIN_PATH:imagens/bg_user_data.gif) no-repeat; height: 24px; }
+.bb_user_info .bbui_feed { vertical-align:middle; text-align:center; padding: 3px; font-size:9px; font-weight:bold; width: 74px; background: url(:PLUGIN_PATH:imagens/bg_user_data.gif) no-repeat; height: 24px; }
+.bb_user_info .bbui_fas {  vertical-align:middle; text-align:center; padding: 3px; font-size:9px; font-weight:bold; width: 74px; background: url(:PLUGIN_PATH:imagens/bg_user_data.gif) no-repeat; height: 24px; }
+.bb_user_info .bbui_blog IMG{ vertical-align:middle; padding: 0 4px 0 0; }
+.bb_user_info .bbui_rank IMG{ vertical-align:middle; padding: 0 4px 0 0; }
+.bb_user_info .bbui_feed IMG{ vertical-align:middle; padding: 0 4px 0 0; }
+.bb_user_info .bbui_fas  IMG{ vertical-align:middle; padding: 0 4px 0 0; }
+
+#bbuinfo_bug_report{ width: 100%; height: 30px; vertical-align:middle; font-size:10px; margin-top: 10px; }
+#bbuinfo_bug_report IMG{ padding: 5px;}
+#bbuinfo_bug_report A{ text-decoration:none; border:0px; color:#993300; }
+
+</style>

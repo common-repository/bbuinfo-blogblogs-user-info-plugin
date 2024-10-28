@@ -1,0 +1,38 @@
+{UPDATED}
+<div class="wrap" id="bbuinfo_config">
+  <h2>Configura&ccedil;&atilde;o </h2>
+  <form name="bbuinfo_config_form" method="post">
+  {ERROS}  
+  <p>Para utilizar este plugin &eacute; necess&aacute;rio obter uma chave de uso da API do BlogBlogs, para obter esta chave <a href="http://www.blogblogs.com.br/developers">clique aqui</a></p>
+    <p>
+      <label for="bbuinfo_APIKEY">BlogBlogs API key: </label>
+      <br>
+      <input dir="ltr" id="bbuinfo_APIKEY" name="bbuinfo_APIKEY" style="width: 75%;" value="{bbuinfo_APIKEY}" type="text">
+    </p>
+    <p>Modo de obten&ccedil;&atilde;o dos dados </p>
+    <p>
+      <label for="bbuinfo_method">
+	  <input name="bbuinfo_method" type="radio" id="bbuinfo_method" value="JS" {js_check}>
+      <strong>Ajax:</strong> este m&eacute;todo carrega os dados ap&oacute;s finalizar o carregamento da p&aacute;gina
+      (recomendado)<br>
+	  </label>
+	  <label for="bbuinfo_method2">
+      <input id="bbuinfo_method2" name="bbuinfo_method" type="radio" value="PHP" {php_check}>
+      <strong>PHP:</strong> este m&eacute;todo carrega os dados junto ao carregamento da p&aacute;gina e pode aumentar o tempo de processamento
+	  </label>
+	  </p>
+    <p class="submit">
+      <input value="Atualizar" name="bbuinfo_config_submit" type="submit">
+	</p>
+    <h2>Estat&iacute;sticas</h2>
+    <h3>Cache</h3>
+    <p>Este plugin faz um cache local de 2 horas para reduzir a carga sobre o BlogBlogs, por isso, caso os dados de algu&eacute;m estejam desatualizados isto se deve ao cache, tente novamente ap&oacute;s 2 horas, ou use o bot&atilde;o abaixo para limpar o cache.</p>
+    <p>Itens em cache: {CACHE_ITENS}<br>
+    </p>
+    <p class="submit"><input value="Limpar Cache" name="bbuinfo_config_cache" type="button"></p>
+    <p>{STATS}</p>
+    <h2>Log de erros</h2>
+    <p>{LOG}	</p>
+    <div id="bbuinfo_bug_report" align="center"><img src="{PATH}/imagens/bug.gif" width="16" height="16" align="absmiddle" /> Achou um bug? <a href="http://www.rafaeldohms.com.br/dmsdev/index.php?go=taskNewBug&amp;prj=69&amp;add_issue=1&amp;from=a2c73f9d844bf75ffbbb30e0e243919c">Reporte ele clicando aqui</a>.</div>
+  </form>
+</div>
